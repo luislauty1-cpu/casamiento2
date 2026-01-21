@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuestro Casamiento</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #faf7f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1600') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    header .overlay {
+      background: rgba(0,0,0,0.45);
+      padding: 3rem;
+      border-radius: 16px;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    footer {
+      background: #2f2f2f;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+    a.btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.8rem 2rem;
+      background: #c89b7b;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="overlay">
+      <h1>Ana & Juan</h1>
+      <p>¡Nos casamos!</p>
+      <p>15 de Noviembre de 2026</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Nuestra Historia</h2>
+    <p>
+      Todo comenzó con una charla, una risa y sin darnos cuenta empezamos a escribir
+      la historia más linda de nuestras vidas. Hoy queremos compartir este momento
+      tan especial con vos.
+    </p>
+  </section>
+
+  <section>
+    <h2>Información del Evento</h2>
+    <div class="info">
+      <div class="card">
+        <h3>Ceremonia</h3>
+        <p>📍 Iglesia San Martín</p>
+        <p>🕒 17:00 hs</p>
+      </div>
+      <div class="card">
+        <h3>Fiesta</h3>
+        <p>📍 Salón Los Robles</p>
+        <p>🕒 19:00 hs</p>
+      </div>
+      <div class="card">
+        <h3>Dress Code</h3>
+        <p>Elegante</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Confirmar Asistencia</h2>
+    <p>Por favor confirmá tu asistencia antes del 1 de Noviembre</p>
+    <a href="#" class="btn">Confirmar</a>
+  </section>
+
+  <footer>
+    <p>Con amor 💍 Ana & Juan</p>
+  </footer>
+
+</body>
+</html>
